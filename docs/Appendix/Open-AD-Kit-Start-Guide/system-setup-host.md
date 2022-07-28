@@ -27,7 +27,7 @@ The docker image of scenario simulator is registered in [docker hub](https://hub
    - :page_facing_up:[UC-001-0001-Kashiwa:2](scenario/scenario_e3b743e7-110c-4db6-b136-e5ffd5538315_2.yml)
    - :page_facing_up:[UC-001-0018-Kashiwa:1](scenario/scenario_a7effa60-c07d-4df4-b082-bc0d6cbae825_1.yml)
 
-   Copy the scenario files to your `home` directory as the following directory structure.
+   Copy the scenario files to your `$HOME` directory as the following directory structure.
 
    ![Home Scenario](images/system-setup-host/home_scenario.png)
 
