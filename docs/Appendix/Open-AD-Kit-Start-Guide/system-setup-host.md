@@ -42,13 +42,13 @@ The docker image of scenario simulator is registered in [docker hub](https://hub
    You also need to copy `60_cyclonedds.conf` to `/etc/sysctl.d` directory in your host as well.
 
    ```console
-   cp 60_cyclonedds.conf /etc/sysctl.d
+   sudo cp 60_cyclonedds.conf /etc/sysctl.d
    ```
 
 1. Update kernel parameters.
 
    ```console
-   sysctl -p /etc/sysctl.d/60_cyclonedds.conf
+   sudo sysctl -p /etc/sysctl.d/60_cyclonedds.conf
    ```
 
 ## Modify `cyclonedds.xml`
